@@ -14,7 +14,7 @@ nav {
   display: flex;
   min-height: 130px;
   min-width: 400px;
-  background-color: #6e6e6e;
+  background-color: #313235;
   padding: 12px;
 
 }
@@ -48,6 +48,7 @@ ul {
 
 li {
   font-size: 18px;
+  color: #FFF;
 }
 
 .logo {
@@ -64,7 +65,7 @@ h4 {
 }
 
 h1 {
-
+  padding: 15px 0px 0px 49px;
 }
 
 i {
@@ -87,8 +88,8 @@ img.nav-icons {
 }
 
 img.website-logo {
-  width: 180px;
-  height: 100px;
+  width: 255px;
+  height: 105px;
   justify-content: center;
   align-content: stretch;
 }
@@ -111,10 +112,11 @@ img.website-logo {
   background-position: fixed;
   top: 0;
   bottom: 0;
-  /*min-width: 100%;*/
-  /*min-height: 100%;*/
-  /*background-repeat: repeat-x;*/
   height: 180px;
+}
+
+.mt-facts, .ticklist, .attachments {
+  padding: 10px;
 }
 
 iframe {
