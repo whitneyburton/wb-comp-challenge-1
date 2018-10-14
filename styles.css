@@ -1,0 +1,92 @@
+/* color palette: https://www.color-hex.com/color-palette/66212 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html, .page-body {
+  height: 100%;
+  font-family: arial;
+}
+
+nav {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 12px;
+}
+
+section {
+  display: flex;
+  /*align-items: flex-end;*/
+}
+
+.menu {
+  width: 70%;
+  padding-top: 170px;
+}
+
+.admin-and-logo{
+  width: 30%;
+  display: inline-block;
+  *display: inline;
+  /**zoom: 1;*/
+}
+
+.page-body {
+  display: flex;
+}
+
+h4 {
+  color: #765546;
+
+}
+
+h3 {
+  color: #765546;
+}
+
+h1 {
+
+}
+
+img.profile-icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+img.nav-icons {
+  width: 50px;
+  height: 50px;
+}
+
+img.website-logo {
+  width: 220px;
+  height: 100px;
+}
+
+.page-body {
+  background-color: #004c4c;
+}
+
+.cards-section {
+
+}
+
+.card-photos {
+  width: 300px;
+  height: 180px;
+}
+
+.individual-card {
+  background-color: yellow;
+  margin: 15px;
+  height: 100px;
+  width: 100px;
+}
+
+.mountain-link {
+  background-color: grey;
+  height: 20px;
+  width: 50px;
+}
