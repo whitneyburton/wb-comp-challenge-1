@@ -7,30 +7,51 @@
 
 body, html, .page-body {
   height: 100%;
-  font-family: arial;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 nav {
   display: flex;
-  background-color: #f7f7f7;
+  min-height: 130px;
+  min-width: 400px;
+  background-color: #6e6e6e;
   padding: 12px;
-}
 
-section {
-  display: flex;
-  /*align-items: flex-end;*/
 }
 
 .menu {
   width: 70%;
-  padding-top: 170px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 20px;
 }
 
 .admin-and-logo{
-  width: 30%;
-  display: inline-block;
-  *display: inline;
-  /**zoom: 1;*/
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+#logo {
+  height: 200px;
+  width: 100px;
+  color: #000;
+}
+
+li {
+  font-size: 18px;
+}
+
+.logo {
+  padding: 0px;
 }
 
 .page-body {
@@ -38,55 +59,64 @@ section {
 }
 
 h4 {
-  color: #765546;
+  color: #000;
 
-}
-
-h3 {
-  color: #765546;
 }
 
 h1 {
 
 }
 
-img.profile-icon {
-  width: 30px;
-  height: 30px;
-  float: left;
+i {
+  color: #004c4c;
+  /*color: #242628;*/
+  padding: 0px 10px 0px 40px;
 }
+
+select {
+  background-color: #f7f7f7;
+  border: #f7f7f7 0px;
+  font-size: 18px;
+  padding: 0px;
+  margin-right: 40px;
+}
+
 img.nav-icons {
   width: 50px;
   height: 50px;
 }
 
 img.website-logo {
-  width: 220px;
+  width: 180px;
   height: 100px;
+  justify-content: center;
+  align-content: stretch;
 }
 
 .page-body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
   background-color: #004c4c;
+  margin: 15px;
+  height: 480px;
 }
 
-.cards-section {
-
-}
-
-.card-photos {
-  width: 300px;
+.card-header {
+  background-image: url('images/first-mountain.jpeg');
+  background-position: fixed;
+  top: 0;
+  bottom: 0;
+  /*min-width: 100%;*/
+  /*min-height: 100%;*/
+  /*background-repeat: repeat-x;*/
   height: 180px;
 }
 
-.individual-card {
-  background-color: yellow;
-  margin: 15px;
-  height: 100px;
-  width: 100px;
-}
-
-.mountain-link {
-  background-color: grey;
-  height: 20px;
-  width: 50px;
+iframe {
+  border: none;
 }

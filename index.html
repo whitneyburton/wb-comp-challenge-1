@@ -3,44 +3,314 @@
 <head>
   <title>Static Comp 1</title>
   <link rel='stylesheet' type='text/css' href='styles.css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
 
 <!-- nav bar -->
   <nav>
-    <section class='menu'>
-      <img class='nav-icons' src='images/share-icon.png' alt='shares icon'>
-      <i class="far fa-share-alt"></i>
-      <h3>MeetUp</h3>
-      <img class='nav-icons' src='images/playlist-icon.png' alt='playlist icon'>
-      <h3>MyTickList</h3>
-      <img class='nav-icons' src='images/personal-icon.png' alt= 'personal icon'>
-      <h3>MyPeaks</h3>
-    </section>
-    <section class='admin-and-logo'>
-      <img class='profile-icon' src='images/profile-icon.png' alt='profile icon'>
-      <h4>Admin Username</h4>
-      <img class='website-logo' src='images/website-logo.png' alt='website logo'> 
-    </section>
-    <!-- need to make this a drop down menu button -->
+      <ul class='nav' role='navigation'>
+        <li class='share'><i class="fas fa-share-alt"></i>MeetUp</li>     
+        <li class='my-tick-list'><i class="fas fa-list-ul"></i>MyTickList</li>      
+        <li class='my-peaks'><i class="fas fa-mountain"></i>MyPeaks</li>   
+      </ul>
+
+      <ul class='admin-and-logo' role='login'> 
+        <li><i class="far fa-user-circle"></i>AdminUsername
+          <!-- <select id='admin-username'>
+            <option value='AdminUsername'>AdminUsername</option>
+            <option value='User Settings'>Settings</option>
+          </select> -->
+        </li>   
+        <li class='logo'>
+            <img class='website-logo' src='images/website-logo.png' alt='website logo'>
+        </li> 
+      </ul>
     
   </nav>
 
 <!-- main body -->
-  <article class='page-body'> 
+    <h1>Mountain Peaks</h1> <br>
 
-  <h1>Mountain Peaks</h1>
+  <article class='page-body'>   
+    <div class = 'title'>
+    </div>
 
-      <section class='individual-card'>
-        <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'>
-        <h4>Mt. Rainier</h4>
-        <h5>Washington State</h5>
-          <article class='mountain-link'>
-            
-          </article>
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
       </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+<div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
+
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> </article>
+        <article class='views'> </article>
+        <!-- <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'> -->
+      </section>
+
+      <section class='card-body'>
+
+        <article class='mt-facts'>
+          <h4>Mt. Rainier</h4>
+          <h5>Washington State // Elevation: 14,411′</h5>
+        </article>
+
+        <article class='hyperlink'>
+          <iframe width='302' height='120' src='https://www.nps.gov/mora/planyourvisit/maps.htm'></iframe>
+        </article>
+          
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h3>Name of Ticklist</h3>
+        </article>
+
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2>04</h2>
+        </article>
+
+      </section>
+
+    </div>
+
+
 
 
   </article>
