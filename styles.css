@@ -6,8 +6,9 @@
 }
 
 body, html, .page-body {
+  background-color: lightgrey;
   height: 100%;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -59,18 +60,26 @@ li {
   display: flex;
 }
 
-h4 {
-  color: #000;
-
-}
 
 h1 {
-  padding: 15px 0px 0px 49px;
+  padding: 15px 0px 15px 49px;
+  display: block;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+  color: #000;
+}
+
+h5 {
+  font-size: 12px;
 }
 
 i {
-  color: #004c4c;
-  /*color: #242628;*/
+  color: #FFF;
   padding: 0px 10px 0px 40px;
 }
 
@@ -95,30 +104,44 @@ img.website-logo {
 }
 
 .page-body {
-  background-color: #f7f7f7;
+  background-color: lightgrey;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  height: auto;
 }
 
 .card {
-  background-color: #004c4c;
-  margin: 15px;
+  background-color: grey;
   height: 480px;
+  width: 300px;
+  margin: 7px auto;
+  border-radius: 5px;
+  box-shadow: 2px 5px;
 }
 
-.card-header {
-  background-image: url('images/first-mountain.jpeg');
-  background-position: fixed;
-  top: 0;
-  bottom: 0;
+.card-photos {
   height: 180px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.hyperlink {
+  background-color: lightgrey;
+}
+
+.fa-share-square {
+  position: absolute;
+  padding: 15px;
+  font-size: 45px;
+}
+
+.views {
+  position: absolute;
+  padding-left: 240px;
+  padding-top: 15px;
+  color: #FFF;
 }
 
 .mt-facts, .ticklist, .attachments {
   padding: 10px;
-}
-
-iframe {
-  border: none;
 }
