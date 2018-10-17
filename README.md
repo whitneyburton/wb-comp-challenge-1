@@ -4,6 +4,6 @@
 
 ---
 ##### Comp Photo 
-![photo of static comp 1 comp](static-comp-1/images/project-comp.jpg)
+![photo of static comp 1 comp](images/project-comp.jpg)
 ##### My Site 
 ![photo of my static comp]( )
