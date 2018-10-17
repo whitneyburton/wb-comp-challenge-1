@@ -4,6 +4,6 @@
 
 ---
 ##### Comp Photo 
-![photo of static comp 1 comp](project-comp.jpg)
+![photo of static comp 1 comp](Documents/turing/mod1/static-comp-1/project-comp.jpg)
 ##### My Site 
 ![photo of my static comp]( )
