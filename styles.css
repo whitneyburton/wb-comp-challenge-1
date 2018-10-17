@@ -6,87 +6,199 @@
 }
 
 body, html, .page-body {
+  background-color: #F5F4F4;
   height: 100%;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 nav {
   display: flex;
-  background-color: #f7f7f7;
+  min-height: 130px;
+  min-width: 400px;
+  background-color: #313235;
   padding: 12px;
 }
 
-section {
-  display: flex;
-  /*align-items: flex-end;*/
+ul {
+  padding: 0px;
+  list-style: none;
 }
 
-.menu {
-  width: 70%;
-  padding-top: 170px;
+.nav {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 20px;
 }
 
 .admin-and-logo{
-  width: 30%;
-  display: inline-block;
-  *display: inline;
-  /**zoom: 1;*/
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 15px 5px 0px 20px;
+}
+
+.admin-sort {
+  display: flex;
+}
+
+.fa-user-circle, {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.fa-angle-double-down {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+#logo {
+  height: 200px;
+  width: 100px;
+  color: #000;
+}
+
+li, .admin {
+  font-size: 18px;
+  color: #FFF;
+}
+
+.nav-meetup:hover, .nav-ticklist:hover, 
+.nav-mypeaks:hover, .admin:hover {
+  color: darkgrey;
+}
+
+.logo {
+  padding: 0px;
 }
 
 .page-body {
   display: flex;
 }
 
-h4 {
-  color: #765546;
 
+h1 {
+  padding: 15px 0px 15px 49px;
+  display: block;
 }
 
 h3 {
-  color: #765546;
+    font-size: 32px;
 }
 
-h1 {
-
+h4 {
+  color: #000;
 }
 
-img.profile-icon {
-  width: 30px;
-  height: 30px;
-  float: left;
+h5 {
+  font-size: 12px;
 }
+
+i {
+  color: #71EEb8;
+  padding: 0px 10px 0px 40px;
+}
+
+i:hover {
+  color: darkgrey;
+}
+
+.fa-share-square {
+  color: #FFF;
+}
+
+select {
+  background-color: #f7f7f7;
+  border: #f7f7f7 0px;
+  font-size: 18px;
+  padding: 0px;
+  margin-right: 40px;
+}
+
 img.nav-icons {
   width: 50px;
   height: 50px;
 }
 
 img.website-logo {
-  width: 220px;
-  height: 100px;
+  width: 260px;
+  height: 60px;
+  padding-top: 14px;
+  padding-right: 20px;
+  justify-content: center;
+  align-content: stretch;
 }
 
 .page-body {
-  background-color: #004c4c;
+  background-color: #F5F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
 }
 
-.cards-section {
-
+.card {
+  background-color: white;
+  height: 480px;
+  width: 300px;
+  margin: 7px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
 }
 
 .card-photos {
-  width: 300px;
   height: 180px;
+  width: 300px;
+  border-radius: 5px;
 }
 
-.individual-card {
-  background-color: yellow;
-  margin: 15px;
-  height: 100px;
-  width: 100px;
+.card-body {
+  padding: 5px;
 }
 
-.mountain-link {
-  background-color: grey;
-  height: 20px;
-  width: 50px;
+.hyperlink {
+  background-color: lightgrey;
+  border-radius: 2px;
+  margin: 10px 15px;  
+  word-wrap: break-word;
+  padding: 7px;
+  height: 40px;
+}
+
+.fa-share-square {
+  position: absolute;
+  padding: 15px;
+  font-size: 45px;
+}
+
+.views {
+  position: absolute;
+  padding-left: 240px;
+  padding-top: 15px;
+  color: #FFF;
+}
+
+.num-of-attachments {
+  color: #71EEb8;
+  font-size: 35px;
+}
+
+.mt-facts, .ticklist, .attachments {
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 660px) {
+  nav {
+    display: block;
+    flex-direction: column-reverse;
+  } 
+  /*.nav {
+    display: block;
+    }
+  .admin-and-logo {
+    display: block;
+  }*/
+  i {
+    padding-left: 0px;
+  }
 }
