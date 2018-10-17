@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>Static Comp 1</title>
   <link rel='stylesheet' type='text/css' href='styles.css'>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
 <!-- nav bar -->
   <nav>
       <ul class='nav' role='navigation'>
-        <li class='share'><i class="fas fa-share-alt"></i>MeetUp</li>     
-        <li class='my-tick-list'><i class="fas fa-list-ul"></i>MyTickList</li>      
-        <li class='my-peaks'><i class="fas fa-mountain"></i>MyPeaks</li>   
+        <li class='nav-meetup'>
+          <i class="fas fa-share-alt"></i>MEETUP</li>     
+        <li class='nav-ticklist'>
+          <i class="fas fa-list-ul"></i>TICKLIST</li>      
+        <li class='nav-mypeaks'>
+          <i class="fas fa-mountain"></i>MYPEAKS</li>   
       </ul>
 
-      <ul class='admin-and-logo' role='login'> 
-        <li><i class="far fa-user-circle"></i>AdminUsername
-          <!-- <select id='admin-username'>
-            <option value='AdminUsername'>AdminUsername</option>
-            <option value='User Settings'>Settings</option>
-          </select> -->
-        </li>   
-        <li class='logo'>
-            <img class='website-logo' src='images/website-logo.png' alt='website logo'>
-        </li> 
-      </ul>
+      <section class='admin-and-logo' role='login'> 
+        <article class = 'admin-sort'>
+            <i class="far fa-user-circle"></i>
+            <p class = 'admin'>AdminUsername</p>
+            <i class="fas fa-angle-double-down"></i>
+        </article>   
+        <article class='logo'>
+            <img class='website-logo' src='images/logo.png' alt='website logo'>
+        </article> 
+      </section>
     
   </nav>
 
 <!-- main body -->
-<h1>PEAKS</h1> 
+<h1>Peaks</h1> 
 
   <article class='page-body'>   
     <div class = 'title'>
     </div>
 
-
     <div class='card'>
       <section class='card-header'>
         <article class='view'> 
-            <i class="far fa-share-square"></i> 
+            <i class="fas fa-share-square"></i> 
         </article>
         <article class='views'> 
           <h5>VIEWS</h5>
           <h3>02</h3>
         </article>
-        <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'>
+        <img class='card-photos' src='images/mt2.jpeg' alt='mountain photo'>
       </section>
-
       <section class='card-body'>
         <article class='mt-facts'>
-          <h4>Mt. Rainier</h4>
-          <h5>Location: Washington State / Elevation: 14,411′</h5>
+          <h4>Mt. Baker</h4>
+          <h5>Washington State / Elevation: 10,781′</h5>
         </article>
         <article class='hyperlink'>
-          <p>https://www.nps.gov/mora/index.htm</p>
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
         </article>
         <article class='ticklist'> 
           <h5>TICKLIST</h5>
-          <h3>Name of Ticklist</h3>
+          <h4>Name of Ticklist</h4>
         </article>
         <article class='attachments'>
           <h5>ATTACHMENTS</h5>
-          <h2>04</h2>
+          <h2 class = 'num-of-attachments'>04</h2>
         </article>
       </section>
     </div>
@@ -74,38 +77,31 @@
     <div class='card'>
       <section class='card-header'>
         <article class='view'> 
-            <i class="far fa-share-square"></i> 
+          <i class="fas fa-share-square"></i>        
         </article>
         <article class='views'> 
           <h5>VIEWS</h5>
           <h3>02</h3>
         </article>
-        <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'>
+        <img class='card-photos' src='images/mt4.jpeg' alt='mountain photo'>
       </section>
-
       <section class='card-body'>
-
         <article class='mt-facts'>
-          <h4>Mt. Rainier</h4>
-          <h5>Washington State // Elevation: 14,411′</h5>
+          <h4>Mt. St. Helens</h4>
+          <h5>Washington State / Elevation: 8,366′</h5>
         </article>
-
         <article class='hyperlink'>
-          
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
         </article>
-          
         <article class='ticklist'> 
           <h5>TICKLIST</h5>
-          <h3>Name of Ticklist</h3>
+          <h4>Name of Ticklist</h4>
         </article>
-
         <article class='attachments'>
           <h5>ATTACHMENTS</h5>
-          <h2>04</h2>
+          <h2 class = 'num-of-attachments'>07</h2>
         </article>
-
       </section>
-
     </div>
 
 
@@ -113,38 +109,31 @@
     <div class='card'>
       <section class='card-header'>
         <article class='view'> 
-            <i class="far fa-share-square"></i> 
+            <i class="fas fa-share-square"></i> 
         </article>
         <article class='views'> 
           <h5>VIEWS</h5>
           <h3>02</h3>
         </article>
-        <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'>
+        <img class='card-photos' src='images/mt3.jpeg' alt='mountain photo'>
       </section>
-
       <section class='card-body'>
-
         <article class='mt-facts'>
-          <h4>Mt. Rainier</h4>
-          <h5>Washington State // Elevation: 14,411′</h5>
+          <h4>Mt. Adams</h4>
+          <h5>Washington State / Elevation: 12,280′</h5>
         </article>
-
         <article class='hyperlink'>
-          
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
         </article>
-          
         <article class='ticklist'> 
           <h5>TICKLIST</h5>
-          <h3>Name of Ticklist</h3>
+          <h4>Name of Ticklist</h4>
         </article>
-
         <article class='attachments'>
           <h5>ATTACHMENTS</h5>
-          <h2>04</h2>
+          <h2 class = 'num-of-attachments'>01</h2>
         </article>
-
       </section>
-
     </div>
 
 
@@ -152,41 +141,152 @@
     <div class='card'>
       <section class='card-header'>
         <article class='view'> 
-            <i class="far fa-share-square"></i> 
+            <i class="fas fa-share-square"></i> 
         </article>
         <article class='views'> 
           <h5>VIEWS</h5>
           <h3>02</h3>
         </article>
-        <img class='card-photos' src='images/first-mountain.jpeg' alt='mountain photo'>
+        <img class='card-photos' src='images/mt1.jpeg' alt='mountain photo'>
       </section>
-
       <section class='card-body'>
-
         <article class='mt-facts'>
-          <h4>Mt. Rainier</h4>
-          <h5>Washington State // Elevation: 14,411′</h5>
+          <h4>Mt. Olympus</h4>
+          <h5>Washington State / Elevation: 7,979′</h5>
         </article>
-
         <article class='hyperlink'>
-          
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
         </article>
-          
         <article class='ticklist'> 
           <h5>TICKLIST</h5>
-          <h3>Name of Ticklist</h3>
+          <h4>Name of Ticklist</h4>
         </article>
-
         <article class='attachments'>
           <h5>ATTACHMENTS</h5>
-          <h2>04</h2>
+          <h2 class = 'num-of-attachments'>10</h2>
         </article>
-
       </section>
-
     </div>
 
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> 
+            <i class="fas fa-share-square"></i> 
+        </article>
+        <article class='views'> 
+          <h5>VIEWS</h5>
+          <h3>02</h3>
+        </article>
+        <img class='card-photos' src='images/mt5.jpeg' alt='mountain photo'>
+      </section>
+      <section class='card-body'>
+        <article class='mt-facts'>
+          <h4>Mt. Shuksan</h4>
+          <h5>Washington State / Elevation: 9,131′</h5>
+        </article>
+        <article class='hyperlink'>
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
+        </article>
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h4>Name of Ticklist</h4>
+        </article>
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2 class = 'num-of-attachments'>06</h2>
+        </article>
+      </section>
+    </div>
 
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> 
+            <i class="fas fa-share-square"></i> 
+        </article>
+        <article class='views'> 
+          <h5>VIEWS</h5>
+          <h3>02</h3>
+        </article>
+        <img class='card-photos' src='images/mt6.jpeg' alt='mountain photo'>
+      </section>
+      <section class='card-body'>
+        <article class='mt-facts'>
+          <h4>Mt. Pilchuck</h4>
+          <h5>Washington State / Elevation: 5,341′</h5>
+        </article>
+        <article class='hyperlink'>
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
+        </article>
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h4>Name of Ticklist</h4>
+        </article>
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2 class = 'num-of-attachments'>03</h2>
+        </article>
+      </section>
+    </div>
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> 
+            <i class="fas fa-share-square"></i> 
+        </article>
+        <article class='views'> 
+          <h5>VIEWS</h5>
+          <h3>02</h3>
+        </article>
+        <img class='card-photos' src='images/mt7.jpeg' alt='mountain photo'>
+      </section>
+      <section class='card-body'>
+        <article class='mt-facts'>
+          <h4>Mt. Deception</h4>
+          <h5>Washington State / Elevation: 7,789′</h5>
+        </article>
+        <article class='hyperlink'>
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
+        </article>
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h4>Name of Ticklist</h4>
+        </article>
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2 class = 'num-of-attachments'>12</h2>
+        </article>
+      </section>
+    </div>
+
+    <div class='card'>
+      <section class='card-header'>
+        <article class='view'> 
+            <i class="fas fa-share-square"></i> 
+        </article>
+        <article class='views'> 
+          <h5>VIEWS</h5>
+          <h3>02</h3>
+        </article>
+        <img class='card-photos' src='images/mt8.jpeg' alt='mountain photo'>
+      </section>
+      <section class='card-body'>
+        <article class='mt-facts'>
+          <h4>Mt. Fernow</h4>
+          <h5>Washington State / Elevation: 9,249′</h5>
+        </article>
+        <article class='hyperlink'>
+          <h5>https://www.nps.gov/mora/planyourvisit/basicinfo.htm</h5>
+        </article>
+        <article class='ticklist'> 
+          <h5>TICKLIST</h5>
+          <h4>Name of Ticklist</h4>
+        </article>
+        <article class='attachments'>
+          <h5>ATTACHMENTS</h5>
+          <h2 class = 'num-of-attachments'>05</h2>
+        </article>
+      </section>
+    </div>
 
   </article>
 
