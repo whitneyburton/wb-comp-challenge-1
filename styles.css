@@ -1,5 +1,3 @@
-/* color palette: https://www.color-hex.com/color-palette/66212 */
-
 * {
   margin: 0px;
   padding: 0px;
@@ -204,4 +202,10 @@ img.website-logo {
     margin: auto; 
   }
 }
+
+@media screen and (max-width: 450px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
 
