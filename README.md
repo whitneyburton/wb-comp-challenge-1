@@ -4,6 +4,6 @@
 
 ---
 ##### Comp Photo 
-![photo of static comp 1 comp](images/project-comp.jpg =100x20)
+![photo of static comp 1 comp](images/project-comp.jpg)
 ##### My Site 
-![photo of my static comp](images/comp-1-closeup.png =100x20)
+![photo of my static comp](images/comp-1-closeup.png)
