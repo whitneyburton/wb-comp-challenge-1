@@ -29,6 +29,7 @@ ul {
   display: flex;
   margin-top: auto;
   margin-bottom: 20px;
+
 }
 
 .admin-and-logo{
@@ -141,14 +142,16 @@ img.website-logo {
   height: 480px;
   width: 300px;
   margin: 7px auto;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px grey;
+  border-style: outset;
+  border-width: 2px;
 }
 
 .card-photos {
   height: 180px;
   width: 300px;
-  border-radius: 5px;
+  border-radius: 1px 1px 0px 0px;
 }
 
 .card-body {
@@ -189,16 +192,16 @@ img.website-logo {
 
 @media screen and (max-width: 660px) {
   nav {
-    display: block;
-    flex-direction: column-reverse;
+    display: inline-block;
+    width: 100%;
   } 
-  /*.nav {
-    display: block;
-    }
-  .admin-and-logo {
-    display: block;
-  }*/
   i {
-    padding-left: 0px;
+    color: #71EEb8;
+    padding: 0px 15px 0px 0px;
+    margin: 0px 25px;
+  }
+  .admin-and-logo {
+    margin: auto; 
   }
 }
+
