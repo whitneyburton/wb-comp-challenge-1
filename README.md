@@ -6,4 +6,4 @@
 ##### Comp Photo 
 ![photo of static comp 1 comp](project-comp.jpg)
 ##### My Site 
-![photo of my dog party](dog-party1.png)
+![photo of my static comp]( )
